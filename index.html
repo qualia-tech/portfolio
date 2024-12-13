@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon CV</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="header"></div>
+    <div id="profil"></div>
+    <div id="competences"></div>
+    <div id="organisation"></div>
+    <div id="projet"></div>
+    <div id="tests"></div>
+    <div id="techniques"></div>
+    <div id="outils"></div>
+    <div id="formations"></div>
+    <section class="experiences">
+      <h2>Expériences Professionnelles</h2>
+      <!-- Here, the individual experiences will be included dynamically -->
+      <div id="experiences-list">
+        <!-- This is where the dynamic inclusion will occur in the index.html -->
+      </div>
+    </section>
+
+    <!-- Charger les composants et expériences via JavaScript -->
+    <script type="module" src="load_components.js"></script>
+    <script type="module" src="load_experiences.js"></script>
+  </body>
+</html>

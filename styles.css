@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-left: 5px solid #333;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 0;
+    color: #0056b3;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.experience {
+    margin-bottom: 15px;
+}
+
+.competences, .organisation, .techniques, .outils, .formations, .experiences, .projets {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.profil {
+    font-style: italic;
+    margin-bottom: 20px;
+}
